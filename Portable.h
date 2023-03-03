@@ -9,6 +9,6 @@ public:
     Portable() = default;
     Portable(int batteryLife);
     void ShowSpec() override;
-    ~Portable() = default;
+    virtual ~Portable() = default;
 };
 
