@@ -10,6 +10,6 @@ public:
     Appliances() = default;
     Appliances(int weight, string color);
     void ShowSpec() override;
-   ~Appliances() = default;
+   virtual ~Appliances() = default;
 };
 
