@@ -3,7 +3,7 @@
 #include "Portable.h"
 #include <string>
 
-class Fridge: public Portable, Appliances
+class Fridge final: public Portable, Appliances
 {
 public:
 	Fridge(int freezertemperature, int weight, string color);
